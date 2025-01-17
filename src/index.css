@@ -1,0 +1,45 @@
+/* index.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#avatarContainer {
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  height: 400px; /* Make sure this is set */
+}
+
+#lessonContainer {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+#speechResult {
+  color: #666;
+  font-style: italic;
+}
