@@ -1,0 +1,125 @@
+/* Container styles */
+.container {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header styles */
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #16a34a;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Question section styles */
+.question-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Speaker button styles */
+.speaker-button {
+  font-size: 1.875rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: transform 0.2s;
+  display: block;
+  margin: 1rem auto;
+}
+
+.speaker-button:hover {
+  transform: scale(1.1);
+}
+
+/* Question text styles */
+.question-text {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Translation styles */
+.translation-container {
+  margin: 1rem 0;
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.hindi-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #16a34a;
+  margin-bottom: 0.5rem;
+}
+
+.english-text {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
+
+/* Options container styles */
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Option button styles */
+.option-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #f3f4f6;
+}
+
+.option-button:hover:not(:disabled) {
+  background-color: #e5e7eb;
+}
+
+.option-button.selected {
+  background-color: #22c55e;
+  color: white;
+}
+
+/* Next button styles */
+.next-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: #3b82f6;
+  color: white;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+}
+
+.next-button:hover {
+  background-color: #2563eb;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

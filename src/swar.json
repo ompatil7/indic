@@ -1,0 +1,79 @@
+[
+    { 
+      "text": "नमस्कार! हमारा पहला पाठ है स्वर। तो चलिए शुरू करते हैं।", 
+      "english": "Namaskar! Our first lesson is vowels. So, let’s begin.",
+      "animation":"bow"
+    },
+    { 
+      "text": "अ – अ से अनार। यह अनार है, यह लाल और रस भरा फल है।", 
+      
+      "expected": "अनार",
+      "english": "This is a pomegranate, a red and juicy fruit."
+    },
+    { 
+      "text": "आ – आ से आम। यह आम है, गर्मी का राजा फल।", 
+      
+      "expected": "आम",
+      "english": "This is a mango, the king of summer fruits."
+    },
+    { 
+      "text": "इ – इ से इमली। यह इमली है, खट्टी-मीठी।", 
+      
+      "expected": "इमली",
+      "english": "This is tamarind, which is tangy and sweet."
+    },
+    { 
+      "text": "ई – ई से ईख। यह ईख है, जिससे चीनी बनती है।", 
+      
+      "expected": "ईख",
+      "english": "This is sugarcane, used to make sugar."
+    },
+    { 
+      "text": "उ – उ से उल्लू। यह उल्लू है, जो रात में देखता है।", 
+      
+      "expected": "उल्लू",
+      "english": "This is an owl, which can see at night."
+    },
+    { 
+      "text": "ऊ – ऊ से ऊन। यह ऊन है, जिससे गर्म कपड़े बनते हैं।", 
+      
+      "expected": "ऊन",
+      "english": "This is wool, used to make warm clothes."
+    },
+    { 
+      "text": "ए – ए से एप्पल। यह एप्पल है, जो लाल और स्वास्थ्यवर्धक फल है।", 
+      
+      "expected": "एप्पल",
+      "english": "This is an apple, a red and healthy fruit."
+    },
+    { 
+      "text": "ऐ – ऐ से ऐनक। यह ऐनक है, जिससे हमें बेहतर दिखता है।", 
+      
+      "expected": "ऐनक",
+      "english": "These are spectacles, which help us see better."
+    },
+    { 
+      "text": "ओ – ओ से ओखली। यह ओखली है, जो मसाले कूटने के काम आती है।", 
+      
+      "expected": "ओखली",
+      "english": "This is a mortar, used for grinding spices."
+    },
+    { 
+      "text": "औ – औ से औरत। यह औरत है, जो परिवार की देखभाल करती है।", 
+      
+      "expected": "औरत",
+      "english": "This is a woman, who takes care of the family."
+    },
+    { 
+      "text": "अं – अं से अंगूर। यह अंगूर है, जो मीठा और रसीला होता है।", 
+      
+      "expected": "अंगूर",
+      "english": "These are grapes, which are sweet and juicy."
+    },
+    { 
+      "text": "अ: – अ: से अः। यह अः है, जिससे हम आश्चर्य प्रकट करते हैं।", 
+      
+      "expected": "अः",
+      "english": "This is 'Ahh,' used to express surprise."
+    }
+  ]

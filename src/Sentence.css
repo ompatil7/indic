@@ -1,0 +1,145 @@
+.sentence-app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.sentence-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sentence-container {
+  margin-bottom: 40px;
+}
+
+.sentence-speech-bubble {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.sentence-audio-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.sentence-selected-words-container {
+  min-height: 60px;
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sentence-available-words-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  min-height: 60px;
+}
+
+.sentence-word-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.sentence-word-button:hover {
+  background-color: #f0f0f0;
+}
+
+.sentence-word-button.selected {
+  background-color: #e5e5e5;
+}
+
+.sentence-check-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: #e5e5e5;
+  color: #afafaf;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: not-allowed;
+  transition: all 0.3s ease;
+}
+
+.sentence-check-button.active {
+  background-color: #58cc02;
+  color: white;
+  cursor: pointer;
+}
+
+.sentence-check-button.active:hover {
+  background-color: #47a501;
+}
+
+.sentence-check-button.error {
+  background-color: #ff4b4b !important;
+  color: white !important;
+}
+
+.sentence-translation {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  animation: fadeIn 0.3s ease;
+}
+
+.sentence-translation .english {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .sentence-app-container {
+    padding: 10px;
+  }
+  
+  .sentence-word-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .sentence-speech-bubble {
+    font-size: 16px;
+  }
+}
