@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useLocation, Link, useNavigate } from 'react-router-dom';
-import Avatar from './Avatar';
-import ThoughtBubble from './ThoughtBubble';
-import { useSpeechState } from './Avatar';
+import Avatar from '../components/Avatar/Avatar';
+import ThoughtBubble from '../components/ThoughtBubble';
+import { useSpeechState } from '../components/Avatar/Avatar';
 import { ReactComponent as BackIcon } from './assets/left.svg';
 import { ReactComponent as PlayIcon } from './assets/play.svg';
 import { ReactComponent as MicIcon } from './assets/mic.svg';

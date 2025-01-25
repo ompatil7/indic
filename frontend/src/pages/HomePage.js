@@ -6,8 +6,8 @@ import { ReactComponent as GameIcon } from './assets/game.svg'; // Use your SVG 
 import { ReactComponent as StoryIcon } from './assets/story.svg'; // Use your SVG file
 import { ReactComponent as ARIcon } from './assets/AR.svg'; // Use your SVG file
 import { ReactComponent as LearningIcon } from './assets/good.svg'; // Use your SVG file
-import LevelCard from './LevelCard';
-import { levels } from './levels';
+import LevelCard from '../components/LevelCard';
+import { levels } from '../constants/levels';
 
 const HomePage = () => {
   const navigate = useNavigate();

@@ -1,19 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import HomePage from './HomePage';
-import LessonPage from './LessonPage';
-import Match from './Match';
-import Landing from './Landing';
-import HygineAnimation from './HygineAnimation';
-import { SpeechProvider } from './Avatar';
-import Signup from "./Signup";
-import Login from "./Login";
-import Sentence from "./Sentence";
-import FlippedCard from './FlippedCard';
-import FillInTheBlanks from './FillInTheBlanks'
-import HindiLearningApp from './HindiLearningApp'
-import Frog from "./Frog";
-import GamePage from "./GamePage";
+import HomePage from './pages/HomePage';
+import LessonPage from './pages/LessonPage';
+import Match from './components/Match/Match';
+import Landing from './pages/Landing';
+import HygineAnimation from './components/Hygine/HygineAnimation';
+import { SpeechProvider } from './components/Avatar/Avatar';
+import Signup from "./components/Auth/Signup";
+import Login from "./components/Auth/Login";
+import Sentence from "./components/Sentence/Sentence";
+import FlippedCard from './components/FlippedCard/FlippedCard';
+import FillInTheBlanks from './components/FillIntheTheBlanks/FillInTheBlanks'
+import HindiLearningApp from './components/HindiLearningApp/HindiLearningApp'
+import Frog from "./components/Frog/Frog";
+import GamePage from "./pages/GamePage";
 
 
 function App() {
