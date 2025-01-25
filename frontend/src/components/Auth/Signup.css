@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'WickedMouse';
-    src: url('../public/fonts/WickedMouse.otf') format('opentype');
+    /* src: url('../public/fonts/WickedMouse.otf') format('opentype'); */
+    src: url('../../../public/fonts/WickedMouse.otf') format('opentype');
   }
 body {
     font-family: Arial, sans-serif;

@@ -292,6 +292,7 @@ p {
 
 @font-face {
   font-family: 'WickedMouse';
+  /* src: url('../public/fonts/WickedMouse.otf') format('opentype'); */
   src: url('../public/fonts/WickedMouse.otf') format('opentype');
 }
 

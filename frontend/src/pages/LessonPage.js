@@ -3,11 +3,11 @@ import { useLocation, Link, useNavigate } from 'react-router-dom';
 import Avatar from '../components/Avatar/Avatar';
 import ThoughtBubble from '../components/ThoughtBubble';
 import { useSpeechState } from '../components/Avatar/Avatar';
-import { ReactComponent as BackIcon } from './assets/left.svg';
-import { ReactComponent as PlayIcon } from './assets/play.svg';
-import { ReactComponent as MicIcon } from './assets/mic.svg';
+import { ReactComponent as BackIcon } from '../assets/left.svg';
+import { ReactComponent as PlayIcon } from '../assets/play.svg';
+import { ReactComponent as MicIcon } from '../assets/mic.svg';
 // import { levels } from './levels';
-import "./index.css";
+import "../index.css";
 
 function LessonPage() {
   const location = useLocation();

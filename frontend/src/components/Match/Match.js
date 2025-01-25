@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 import './Match.css';  // Make sure this import is correct
 
 // First update the imports to use relative paths from your new location
-import grapesImage from './assets/grapes.png';
-import bananaImage from './assets/banana.png';
-import mangoImage from './assets/mango.png';
-import watermelonImage from './assets/watermelon.png';
-import orangeImage from './assets/orange.png';
+
+import grapesImage from '../../assets/grapes.png';
+import bananaImage from '../../assets/banana.png';
+import mangoImage from '../../assets/mango.png';
+import watermelonImage from '../../assets/watermelon.png';
+import orangeImage from '../../assets/orange.png';
 
 const preMatchedData = [
   { fruit: <img src={grapesImage} alt="Grapes" className="fruit-image" />, fruitHindi: "अंगूर" },

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ReactComponent as NextIcon } from './assets/next.svg';
+import { ReactComponent as NextIcon } from '../assets/next.svg';
 
 const Landing = () => {
   const navigate = useNavigate();
